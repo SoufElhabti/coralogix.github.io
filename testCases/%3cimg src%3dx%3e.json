@@ -1,0 +1,54 @@
+{
+  "name": "92630975-77dd-4297-bbfa-c8cd12a7d932",
+  "displayName": "\u003cimg src=x\u003e",
+  "notes": "\u003cimg src=x\u003e",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hey"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Hello! How can I help you?" ]
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "\u003cimg src=x\u003e"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I didn't get that. Can you say it again?" ]
+      } ]
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1668859447,
+    "nanos": 98045000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow"
+  }
+}
